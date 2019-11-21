@@ -33,7 +33,7 @@ Local version: 4.0.2
 
 5. Go to "localhost:3000/instruments.html" in your web browser. The page should be unstyled.
 
-6. Run gulp command. This will automatically run the default task defined in gulpfile.js
+6. In another terminal, run the gulp command. This will automatically run the default task defined in gulpfile.js
 
 > `$ gulp`
 
@@ -44,13 +44,13 @@ Local version: 4.0.2
 
 Gulp can automatically track files and watch for changes. The watch task defined at the bottom of gulpfile.js watches the scss directory and runs the 'default' task when a change is detected. To use this feature:
 
-1. Run npm start
+1. Run npm start if the server isn't already running.
 
 > `$ npm start`
 
 2. Go to "localhost:3000/gulp-watch-test.html" in your web browser.
 
-3. Run gulp watch
+3. In another terminal, run gulp watch
 
 > `$ gulp watch`
 
